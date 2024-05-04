@@ -6,16 +6,29 @@ local lspconfig = require "lspconfig"
 
 local servers = {
   "lua_ls",
+
   "astro",
   "tsserver",
   "html",
   "cssls",
   "tailwindcss",
   "jsonls",
-  "prismals",
   "svelte",
   "gopls",
   "volar",
+
+  "marksman",
+
+  "sqls",
+  "prismals",
+  "graphql",
+
+  "dockerls",
+  "docker_compose_language_service",
+
+  "gopls",
+
+  "dotls",
 }
 
 -- lsps with default config

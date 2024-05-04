@@ -22,6 +22,10 @@ map("n", "<C-k>", ":m '<-2<CR>gv=gv", { desc = "Move current line to top" })
 map("v", "<C-j>", ":m .+1<CR>", { desc = "Move current line to bottom" })
 map("v", "<C-k>", ":m .-2<CR>", { desc = "Move current line to top" })
 
+-- Block indent
+map("v", "<S-Tab>", "<lt>gv", { silent = true, desc = "Indent" })
+map("v", "<Tab>", ">gv", { silent = true, desc = "Indent" })
+
 -- Fast ESC
 map("i", "jk", "<ESC>")
 
@@ -47,3 +51,15 @@ map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
 
 -- LazyGit
 map("n", "<leader>gg", "<cmd>LazyGit<CR>", { desc = "LazyGit" })
+
+-- LspSaga
+map("n", "<leader>hf", "<cmd>Lspsaga finder<CR>", { desc = "LspSaga Finder" })
+map("n", "<leader>ha", "<cmd>Lspsaga code_action<CR>", { desc = "LspSaga Code action" })
+map("n", "<leader>hr", "<cmd>Lspsaga rename<CR>", { desc = "LspSaga Rename symbol" })
+map("n", "<leader>hd", "<cmd>Lspsaga show_cursor_diagnostics<CR>", { desc = "LspSaga Floating diagnostics" })
+map("n", "<leader>hh", "<cmd>Lspsaga hover_doc<CR>", { desc = "LspSaga Floating documentation" })
+map("n", "<leader>ho", "<cmd>Lspsaga outline<CR>", { desc = "LspSaga Outline" })
+
+-- DiffView
+map("n", "<leader>dd", "<cmd>DiffViewOpen<CR>", { desc = "Open DiffView" })
+map("n", "<leader>dc", "<cmd>DiffViewClose<CR>", { desc = "Close DiffView" })

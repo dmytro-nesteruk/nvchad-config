@@ -4,23 +4,49 @@ return {
     ensure_installed = {
       "bash",
       "lua",
+
+      -- Web styles
       "css",
       "scss",
-      "html",
-      "jsonc",
-      "javascript",
-      "typescript",
-      "dockerfile",
-      "markdown_inline",
-      "markdown",
-      "svelte",
-      "graphql",
-      "tsx",
-      "prisma",
+
+      -- HTML like
       "vue",
       "pug",
-      "json",
+      "html",
+      "svelte",
       "astro",
+      "angular",
+
+      -- JS/TS/JSX/TSX
+      "javascript",
+      "typescript",
+      "tsx",
+
+      -- GO
+      "go",
+      "gomod",
+      "gosum",
+      "gotmpl",
+
+      -- Dockerfile
+      "dockerfile",
+
+      -- Markdown
+      "markdown_inline",
+      "markdown",
+
+      -- Database
+      "graphql",
+      "prisma",
+      "sql",
+
+      -- Config
+      "json",
+      "jsonc",
+      "yaml",
+
+      -- Dot files
+      "dot",
     },
   },
 }

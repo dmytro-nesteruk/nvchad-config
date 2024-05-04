@@ -9,7 +9,7 @@ return {
       -- Web
       "astro-language-server",
       "typescript-language-server",
-      "tailwind-language-server",
+      "tailwindcss-language-server",
       "prisma-language-server",
       "svelte-language-server",
       "vue-language-server",
@@ -19,7 +19,6 @@ return {
 
       "prettier",
       "prettierd",
-      "eslint",
       "eslint_d",
       "stylelint",
 
@@ -36,6 +35,13 @@ return {
       "gofumpt",
       "goimports-reviser",
       "golines",
+
+      -- Markdown
+      "marksman",
+
+      -- SQL
+      "sqlls",
+      "sqlfmt",
     },
   },
 }

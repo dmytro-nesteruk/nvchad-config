@@ -4,13 +4,13 @@
 ---@type ChadrcConfig
 local M = {}
 
+local highlights = require "highlights"
+
 M.ui = {
   theme = "kanagawa",
 
-  -- hl_override = {
-  -- 	Comment = { italic = true },
-  -- 	["@comment"] = { italic = true },
-  -- },
+  hl_override = highlights.override,
+  hl_add = highlights.add,
 }
 
 return M
