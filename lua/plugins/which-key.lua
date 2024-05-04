@@ -6,7 +6,7 @@ return {
     local gs = require "gitsigns"
 
     vim.o.timeout = true
-    vim.o.timeoutlen = 50
+    vim.o.timeoutlen = 150
 
     wk.register({
       -- b = { name = "Buffer" },

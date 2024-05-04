@@ -8,6 +8,7 @@ local highlights = require "highlights"
 
 M.ui = {
   theme = "kanagawa",
+  transparency = true,
 
   hl_override = highlights.override,
   hl_add = highlights.add,

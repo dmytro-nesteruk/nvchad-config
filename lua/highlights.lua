@@ -12,6 +12,10 @@ M.override = {
   Comment = {
     italic = true,
   },
+
+  CmpDoc = {
+    bg = "none",
+  },
 }
 
 M.add = {
@@ -54,6 +58,10 @@ M.add = {
   GitSignsAddInline = {
     bg = "none",
     fg = "#C8C093",
+  },
+
+  CmpDoc = {
+    bg = "none",
   },
 }
 

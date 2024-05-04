@@ -17,5 +17,8 @@ o.shiftwidth = 2
 o.tabstop = 2
 o.autoindent = true
 
+-- Max popup height
+o.pumheight = 15
+
 g.mapleader = " "
 g.lazygit_floating_window_use_plenary = 0

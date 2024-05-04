@@ -47,3 +47,13 @@ lspconfig.tsserver.setup {
   on_init = on_init,
   capabilities = capabilities,
 }
+
+-- vue/volar
+lspconfig.volar.setup {
+  filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue", "json" },
+  init_options = {
+    vue = {
+      hybridMode = false,
+    },
+  },
+}
