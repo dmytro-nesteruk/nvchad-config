@@ -63,6 +63,16 @@ M.add = {
   CmpDoc = {
     bg = "none",
   },
+
+  SagaBorder = {
+    bg = "none",
+    fg = "#2D4F67",
+  },
+
+  SagaTitle = {
+    bg = "none",
+    fg = "#C8C093",
+  },
 }
 
 return M
