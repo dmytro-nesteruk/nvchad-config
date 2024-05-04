@@ -7,6 +7,7 @@ return {
       "stylua",
 
       -- Web
+      "angular-language-server",
       "astro-language-server",
       "typescript-language-server",
       "tailwindcss-language-server",

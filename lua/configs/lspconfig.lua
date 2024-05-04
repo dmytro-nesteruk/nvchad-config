@@ -7,6 +7,7 @@ local lspconfig = require "lspconfig"
 local servers = {
   "lua_ls",
 
+  "angularls",
   "astro",
   "tsserver",
   "html",
