@@ -35,6 +35,26 @@ M.add = {
     bg = "none",
     fg = "#eb1e52",
   },
+
+  GitSignsDelete = {
+    bg = "none",
+    fg = "#eb1e52",
+  },
+
+  GitSignsStagedDelete = {
+    bg = "none",
+    fg = "#C8C093",
+  },
+
+  GitSignsStagedAdd = {
+    bg = "none",
+    fg = "#C8C093",
+  },
+
+  GitSignsAddInline = {
+    bg = "none",
+    fg = "#C8C093",
+  },
 }
 
 return M
