@@ -15,7 +15,6 @@ local servers = {
   "tailwindcss",
   "jsonls",
   "svelte",
-  "gopls",
   "volar",
 
   "marksman",
@@ -28,6 +27,8 @@ local servers = {
   "docker_compose_language_service",
 
   "gopls",
+
+  "pyright",
 
   "dotls",
 }
@@ -56,4 +57,9 @@ lspconfig.volar.setup {
       hybridMode = false,
     },
   },
+}
+
+-- python
+lspconfig.pyright.setup {
+  filetypes = { "python" },
 }

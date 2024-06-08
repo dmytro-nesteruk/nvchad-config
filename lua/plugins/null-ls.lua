@@ -9,6 +9,9 @@ return {
     local code_actions = null_ls.builtins.code_actions
 
     config.sources = {
+      diagnostics.mypy,
+      diagnostics.ruff,
+
       diagnostics.golangci_lint,
 
       diagnostics.eslint_d.with {

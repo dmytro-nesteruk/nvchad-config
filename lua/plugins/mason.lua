@@ -26,13 +26,20 @@ return {
       -- Env
       "dot-language-server",
 
+      --Python,
+      "black",
+      "debugpy",
+      "pyright",
+      "mypy",
+      "ruff",
+
       -- Docker
       "dockerfile-language-server",
       "docker-compose-language-service",
 
       -- Go
       "gopls",
-      "golangcli-lint",
+      "golangci-lint",
       "gofumpt",
       "goimports-reviser",
       "golines",

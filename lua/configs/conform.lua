@@ -18,6 +18,8 @@ local options = {
 
     go = { "goimports", "gofmt" },
 
+    python = { "black" },
+
     prisma = { "prismaFmt" },
 
     ["*"] = { "trim_whitespace" },

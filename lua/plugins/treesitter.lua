@@ -28,6 +28,9 @@ return {
       "gosum",
       "gotmpl",
 
+      -- Python
+      "python",
+
       -- Dockerfile
       "dockerfile",
 
